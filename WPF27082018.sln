@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookReader", "BookReader\Bo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowDocument", "FlowDocument\FlowDocument.csproj", "{C6A47F02-56B4-4B40-B95F-C75471DA1D4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandsStart", "CommandsStart\CommandsStart.csproj", "{FDA10EE1-D991-483B-96D3-14A449BE43DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C6A47F02-56B4-4B40-B95F-C75471DA1D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6A47F02-56B4-4B40-B95F-C75471DA1D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6A47F02-56B4-4B40-B95F-C75471DA1D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA10EE1-D991-483B-96D3-14A449BE43DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA10EE1-D991-483B-96D3-14A449BE43DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA10EE1-D991-483B-96D3-14A449BE43DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA10EE1-D991-483B-96D3-14A449BE43DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
