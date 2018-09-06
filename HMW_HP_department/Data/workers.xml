@@ -1,9 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <worker id="1" photo="Images/worker1.png" name="Leonid" surname="Leonenkov" middlename="Sergeevich" birthdate="21.05.1989" specialization="office man" position="office worker" did="1" dname="office"/>
-  <worker id="2" photo="Images/worker2.png" name="Sidr" surname="Sidorenko" middlename="Sergeevich" birthdate="21.05.1989" specialization="office man" position="office worker" did="1" dname="office"/>
-  <worker id="3" photo="Images/worker3.png" name="Ivan" surname="Ivanenko" middlename="Sergeevich" birthdate="21.05.1989" specialization="factory man" position="factory worker" did="2" dname="factory"/>
-  <worker id="4" photo="Images/worker4.png" name="Stepan" surname="Stepanenko" middlename="Sergeevich" birthdate="21.05.1989" specialization="factory man" position="factory worker" did="2" dname="factory"/>
-  <worker id="5" photo="Images/worker5.png" name="someone" surname="Someone`s" middlename="Sergeevich" birthdate="21.05.1989" specialization="security man" position="security worker" did="3" dname="security"/>
-  <worker id="6" photo="Images/worker6.png" name="Petr" surname="Petrenko" middlename="Sergeevich" birthdate="21.05.1989" specialization="security man" position="security worker" did="3" dname="security"/>
+  <worker id="1" photo="Images/worker1.png" name="Leonid" surname="Leonenkov" middlename="Sergeevich" birthdate="21.05.1989" specialization="office man" position="office worker" did="1" dname="office" />
+  <worker id="2" photo="Images/worker2.png" name="Sidr" surname="Sidorenko" middlename="Sergeevich" birthdate="21.05.1989" specialization="office man" position="office worker" did="1" dname="office" />
+  <worker id="3" photo="Images/worker3.png" name="Ivan" surname="Ivanenko" middlename="Sergeevich" birthdate="21.05.1989" specialization="factory man" position="factory worker" did="2" dname="factory" />
+  <worker id="4" photo="Images/worker4.png" name="Stepan" surname="Stepanenko" middlename="Sergeevich" birthdate="21.05.1989" specialization="factory man" position="factory worker" did="2" dname="factory" />
+  <worker id="5" photo="Images/worker5.png" name="someone" surname="Someone`s" middlename="Sergeevich" birthdate="21.05.1989" specialization="security man" position="security worker" did="3" dname="security" />
+  <worker id="6" photo="Images/worker6.png" name="Petr" surname="Petrenko" middlename="Sergeevich" birthdate="21.05.1989" specialization="security man" position="security worker" did="3" dname="security" />
+  <worker id="7" photo="Images/worker1.png" name="MyOne" surname="wew" middlename="fwfew" birthdate="3423" specialization="fef" position="efe" did="2" dname="factory" />
+  <worker id="7" photo="Images/worker1.png" name="MyOne" surname="wew" middlename="fwfew" birthdate="3423" specialization="fef" position="efe" did="2" dname="factory" />
+  <worker id="4" photo="Images/worker1.png" name="MY" surname="fewfew" middlename="fefw" birthdate="fwe" specialization="ewf" position="ewq" did="1" dname="office" />
 </root>

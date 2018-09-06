@@ -34,5 +34,12 @@ namespace HMW_HP_department
             b.XPath = $"worker[@did={k}]";
             list2.SetBinding(ListBox.ItemsSourceProperty, b);
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var addWindow = new WorkerAdding();
+            if (addWindow.ShowDialog() == true)
+                MessageBox.Show("Worker has beed added.");
+        }
     }
 }

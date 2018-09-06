@@ -1,0 +1,33 @@
+﻿<Window x:Class="HMW_HP_department.WorkerAdding"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HMW_HP_department"
+        mc:Ignorable="d"
+        Title="WorkerAdding" Height="620" Width="250" Background="LightGreen">
+    <!--<worker id="1" photo="Images/worker1.png" name="Leonid" surname="Leonenkov" middlename="Sergeevich" birthdate="21.05.1989" specialization="office man" position="office worker" did="1" dname="office"/>-->
+    <StackPanel x:Name="panel1" Width="200">
+        <Label Content="ID:"/>
+        <TextBox x:Name="tb_id" />
+        <Label Content="Photo(path):"/>
+        <TextBox x:Name="tb_photo" />
+        <Label Content="Name:"/>
+        <TextBox x:Name="tb_name" />
+        <Label Content="Surname:"/>
+        <TextBox x:Name="tb_surname" />
+        <Label Content="Middlename:"/>
+        <TextBox x:Name="tb_middlename" />
+        <Label Content="Birthdate:"/>
+        <TextBox x:Name="tb_birthdate" />
+        <Label Content="Specialization:"/>
+        <TextBox x:Name="tb_specialization" />
+        <Label Content="Position:"/>
+        <TextBox x:Name="tb_position" />
+        <Label Content="Department ID:"/>
+        <TextBox x:Name="tb_did" />
+        <Label Content="Department name:"/>
+        <TextBox x:Name="tb_dname" />
+        <Button x:Name="addButton" Margin="0 10" Height="40" Content="Add worker" Click="addButton_Click" Background="AntiqueWhite" />
+    </StackPanel>
+</Window>

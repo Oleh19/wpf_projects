@@ -7,8 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="490" Width="550" Background="LightGreen">
     <DockPanel>
-        <Label DockPanel.Dock="Top" HorizontalAlignment="Center" FontSize="24" Foreground="DodgerBlue">HR department management system</Label>
-    <Grid>
+        <Label DockPanel.Dock="Top" HorizontalAlignment="Center" FontSize="20" Margin="10" Foreground="DodgerBlue">HR department management system</Label>
+        <Button Content="Add worker" Click="Button_Click" Margin="10" Padding="5" DockPanel.Dock="Bottom" Background="AntiqueWhite" HorizontalAlignment="Center" FontSize="24" Foreground="DodgerBlue"/>
+        <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="2*"/>
