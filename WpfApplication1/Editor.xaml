@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApplication1.Editor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="Albums editing" Height="300" Width="300">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="ID"/>
+            <TextBox x:Name="id"/>
+            <TextBlock Text="Title"/>
+            <TextBox x:Name="title"/>
+            <TextBlock Text="Band"/>
+            <TextBox x:Name="band"/>
+            <TextBlock Text="Year"/>
+            <TextBox x:Name="year"/>
+            <TextBlock Text="Rate"/>
+            <TextBox x:Name="rate"/>
+            <Button x:Name="save" Content="Save" Margin="40 20" Click="save_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

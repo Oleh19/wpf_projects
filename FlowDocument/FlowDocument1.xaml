@@ -1,0 +1,34 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              xmlns:local="clr-namespace:WpfApplication1"
+              ColumnWidth="400" FontSize="14" FontFamily="Georgia">
+    
+    <Paragraph FontFamily="Times New Romans" FontWeight="Bold" TextAlignment="Center">
+        My first flowdocument
+    </Paragraph>
+    <Paragraph FontFamily="Verdana">
+        Founded in 1565 by the
+        <Bold>Portuguese</Bold> , the city was initially the seat of the Captaincy of Rio de Janeiro, a domain of the Portuguese Empire.
+    </Paragraph>
+    <Section Foreground="Firebrick">
+        <Paragraph FontFamily="Comic Sans MS">
+            <Floater>
+                <Paragraph>
+                    <Image Source="Data/rdj1.jpg" Width="100"/>
+                </Paragraph>
+            </Floater>
+            <Italic>Rio de Janeiro</Italic> has the
+            <Underline>second largest municipal GDP in the country,[6] and 30th largest in the world in 2008</Underline> ,[7] estimated at about R$343 billion (IBGE, 2008) (nearly US$201 billion).
+        </Paragraph>
+        <Paragraph FontFamily="Arial">
+            <Span Foreground="BlueViolet">Rio de Janeiro is one of the most visited cities in the Southern Hemisphere</Span> and is known for its natural settings, Carnival, samba, bossa nova, and balneario beaches[10] such as Barra da Tijuca, Copacabana, Ipanema, and Leblon.
+        </Paragraph>
+        <Paragraph FontFamily="Verdana">
+            <Floater HorizontalAlignment="Left">
+                <BlockUIContainer>
+                    <Image Source="Data/rdj2.jpg" Width="100"/>
+                </BlockUIContainer>
+            </Floater>
+            Europeans first encountered Guanabara Bay on 1 January 1502 (hence Rio de Janeiro, "January River"), by a Portuguese expedition under explorer Gaspar de Lemos, captain of a ship in Pedro Álvares Cabral's fleet, or under Gonçalo Coelho.[12] Allegedly the Florentine explorer Amerigo Vespucci participated as observer at the invitation of King Manuel I in the same expedition. The region of Rio was inhabited by the Tupi, Puri, Botocudo and Maxakalí peoples.
+        </Paragraph>
+    </Section>
+</FlowDocument>

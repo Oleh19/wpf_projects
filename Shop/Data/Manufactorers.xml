@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <manufacturer id="0" name="All manufacturers" categoryId ="0"/>
+  <manufacturer id="1" name="Il Molino" categoryId ="1"/>
+  <manufacturer id="2" name="Mafia" categoryId ="1"/>
+  <manufacturer id="3" name="Nike" categoryId ="2"/>
+  <manufacturer id="4" name="Springfiled" categoryId ="2"/>
+  <manufacturer id="5" name="La Costa" categoryId ="3"/>
+  <manufacturer id="6" name="Puma" categoryId ="3"/>
+</root>

@@ -1,0 +1,62 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+              xmlns:local="clr-namespace:WpfApplication1"
+              ColumnWidth="400" FontSize="14" FontFamily="Georgia">
+    <List MarkerStyle="Circle">
+        <ListItem>
+            <Paragraph>
+                Kiev
+            </Paragraph>
+        </ListItem>
+        <ListItem>
+            <Paragraph>
+                Minsk
+            </Paragraph>
+        </ListItem>
+        <ListItem>
+            <Paragraph>
+                Moscow
+            </Paragraph>
+        </ListItem>
+        <ListItem>
+            <Paragraph>
+                San-Francisco
+            </Paragraph>
+        </ListItem>
+    </List>
+    <Table>
+        <TableRowGroup>
+            <TableRow>
+                <TableCell>
+                    <Paragraph>Winter</Paragraph>
+                </TableCell>
+                <TableCell>
+                    <Paragraph>-25 deg.</Paragraph>
+                </TableCell>
+            </TableRow>
+            <TableRow>
+                <TableCell>
+                    <Paragraph>Spring</Paragraph>
+                </TableCell>
+                <TableCell>
+                    <Paragraph>+8 deg.</Paragraph>
+                </TableCell>
+            </TableRow>
+            <TableRow>
+                <TableCell>
+                    <Paragraph>Summer</Paragraph>
+                </TableCell>
+                <TableCell>
+                    <Paragraph>+30 deg.</Paragraph>
+                </TableCell>
+            </TableRow>
+            <TableRow>
+                <TableCell>
+                    <Paragraph>Autumn</Paragraph>
+                </TableCell>
+                <TableCell>
+                    <Paragraph>-10 deg.</Paragraph>
+                </TableCell>
+            </TableRow>
+        </TableRowGroup>
+    </Table>
+</FlowDocument>

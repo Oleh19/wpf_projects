@@ -1,0 +1,69 @@
+﻿<Window x:Class="TreeView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TreeView"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <XmlDataProvider x:Key="content" Source="Data/Content.xml" XPath="root"/>
+        <Style TargetType="TreeViewItem">
+            <Setter Property="IsExpanded" Value="True"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <TabControl>
+            <TabItem Header="Static treeView">
+                <TreeView x:Name="tv1" FontSize="20" FontWeight="Bold" FontFamily="Comic Sans MS" SelectedItemChanged="TreeView_SelectedItemChanged">
+                    <TreeViewItem IsExpanded="True">
+                        <TreeViewItem.Header>
+                            <WrapPanel>
+                                <Image Source="Images/pl.png" Width="40"/>
+                                <TextBlock VerticalAlignment="Center">Programming languages</TextBlock>
+                            </WrapPanel>
+                        </TreeViewItem.Header>
+                        <TreeViewItem Header="C#"></TreeViewItem>
+                        <TreeViewItem Header="C++"></TreeViewItem>
+                        <TreeViewItem Header="Java"></TreeViewItem>
+                    </TreeViewItem>
+                    <TreeViewItem IsExpanded="True">
+                        <TreeViewItem.Header>
+                            <WrapPanel>
+                                <Image Source="Images/bd.png" Width="25"/>
+                                <TextBlock VerticalAlignment="Center">Data bases servers</TextBlock>
+                            </WrapPanel>
+                        </TreeViewItem.Header>
+                        <TreeViewItem Header="MS SQL Server"></TreeViewItem>
+                        <TreeViewItem Header="Oracle Database"></TreeViewItem>
+                        <TreeViewItem Header="Mariya DB"></TreeViewItem>
+                    </TreeViewItem>
+                    <TreeViewItem IsExpanded="True">
+                        <TreeViewItem.Header>
+                            <WrapPanel>
+                                <Image Source="Images/os.png" Width="40"/>
+                                <TextBlock VerticalAlignment="Center">Operating systems</TextBlock>
+                            </WrapPanel>
+                        </TreeViewItem.Header>
+                        <TreeViewItem Header="Windows"></TreeViewItem>
+                        <TreeViewItem Header="Linux"></TreeViewItem>
+                        <TreeViewItem Header="Mac OS"></TreeViewItem>
+                    </TreeViewItem>
+                </TreeView>
+            </TabItem>
+            <TabItem Header="Dynamic treeView">
+                <TreeView x:Name="tv2" ItemsSource="{Binding Source={StaticResource content}}" SelectedItemChanged="TreeView_SelectedItemChanged_1" SelectedValuePath="@name">
+                    <TreeView.ItemTemplate>
+                        <HierarchicalDataTemplate ItemsSource="{Binding XPath=item}">
+                            <WrapPanel>
+                                <Image Source="{Binding XPath=@icon}" Width="40"/>
+                                <TextBlock Text="{Binding XPath=@name}" VerticalAlignment="Center"/>
+                            </WrapPanel>
+                        </HierarchicalDataTemplate>
+                    </TreeView.ItemTemplate>
+                </TreeView>
+            </TabItem>
+        </TabControl>
+       
+    </Grid>
+</Window>

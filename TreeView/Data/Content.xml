@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <item id="10" name="Department 1" icon="Images/depIcon.ico">
+    <item id="101" name="Employee 1" icon="Images/empIcon.ico"/>
+    <item id="102" name="Employee 2" icon="Images/empIcon.ico"/>
+    <item id="103" name="Employee 3" icon="Images/empIcon.ico"/>
+  </item>
+  <item id="20" name="Department 1" icon="Images/depIcon.ico">
+    <item id="201" name="Employee 4" icon="Images/empIcon.ico"/>
+    <item id="202" name="Employee 5" icon="Images/empIcon.ico"/>
+    <item id="203" name="Employee 6" icon="Images/empIcon.ico"/>
+  </item>
+  <item id="30" name="Department 1" icon="Images/depIcon.ico">
+    <item id="301" name="Employee 7" icon="Images/empIcon.ico"/>
+    <item id="302" name="Employee 8" icon="Images/empIcon.ico"/>
+    <item id="303" name="Employee 9" icon="Images/empIcon.ico"/>
+  </item>
+</root>

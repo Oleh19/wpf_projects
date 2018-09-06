@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root id="1" name="WPF" icon="Images/book.png">
+  <item id="100" name="Introduction" icon="Images/shedule.png">
+    <item id="101" name="History of WPF" icon="Images/sheet.png"/>
+    <item id="102" name="WPF abilities" icon="Images/sheet.png"/>
+    <item id="103" name="WPF perspectives" icon="Images/sheet.png"/>
+  </item>
+  <item id="200" name="WPF containers" icon="Images/shedule.png">
+    <item id="201" name="DockPanel" icon="Images/sheet.png"/>
+    <item id="202" name="StackPanel" icon="Images/sheet.png"/>
+  </item>
+</root>

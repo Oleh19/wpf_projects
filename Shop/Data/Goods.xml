@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<root>
+  <product categoryID="3" id="1" Name="Boots" ManufacturerId="4" Manufacturer="Springfiled" Price="1200" Amount="40"/> 
+  <product categoryID="3" id="2" Name="Shoes" ManufacturerId="5" Manufacturer="La Costa" Price="550" Amount="420"/> 
+  <product categoryID="3" id="3" Name="Sneackers" ManufacturerId="6" Manufacturer="Puma" Price="900" Amount="605"/> 
+  <product categoryID="1" id="4" Name="Neapolitanic pizza" ManufacturerId="1" Manufacturer="Il Molino" Price="200" Amount="3"/>
+  <product categoryID="1" id="5" Name="Suchi without rise" ManufacturerId="2" Manufacturer="Mafia" Price="130" Amount="13"/> 
+  <product categoryID="2" id="6" Name="Shirt" ManufacturerId="3" Manufacturer="Nike" Price="100" Amount="25"/> 
+  <product categoryID="1" id="7" Name="Very spicy pizza" ManufacturerId="1" Manufacturer="Il Molino" Price="150" Amount="7"/> 
+  <product categoryID="2" id="8" Name="T-Shirt" ManufacturerId="6" Manufacturer="Puma" Price="80" Amount="140"/> 
+  <product categoryID="3" id="9" Name="Boots" ManufacturerId="5" Manufacturer="La Costa" Price="600" Amount="130"/> 
+  <product categoryID="1" id="10" Name="Suchi with red fish" ManufacturerId="2" Manufacturer="Mafia" Price="210" Amount="8"/> 
+  <product categoryID="2" id="11" Name="Jacket" ManufacturerId="4" Manufacturer="Springfiled" Price="350" Amount="120"/> 
+  <product categoryID="2" id="12" Name="Coat" ManufacturerId="3" Manufacturer="Nike" Price="200" Amount="5"/> 
+</root>

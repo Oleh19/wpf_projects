@@ -1,0 +1,16 @@
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\bin\Debug\BookReader.exe.config
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\bin\Debug\BookReader.exe
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\bin\Debug\BookReader.pdb
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\BookReader.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\App.g.cs
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\BookReader_MarkupCompile.cache
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\BookReader_MarkupCompile.lref
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\MainWindow.baml
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\BookReader.g.resources
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\BookReader.Properties.Resources.resources
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\BookReader.csproj.GenerateResource.Cache
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\BookReader.exe
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\BookReader.pdb
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\App.baml
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\Dictionaries\TvContent.baml

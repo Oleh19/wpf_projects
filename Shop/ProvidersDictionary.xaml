@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Shop">
+    <XmlDataProvider x:Key="categoriesProvider" Source="Data/Categories.xml" XPath="root"/>
+    <XmlDataProvider x:Key="goodsProvider" Source="Data/Goods.xml" XPath="root"/>
+    <XmlDataProvider x:Key="manufactorersProvider" Source="Data/Manufactorers.xml" XPath="root"/>
+</ResourceDictionary>

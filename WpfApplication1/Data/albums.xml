@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <album id="1" title="Master of Puppets" band="Metallica" year="1986" rate="10" />
+  <album id="2" title="Toxicity" band="System of a Down" year="2001" rate="8" />
+  <album id="3" title="Back in Black" band="AC/DC" year="1980" rate="10" />
+  <album id="4" title="Без меж" band="Океан Ельзи" year="2016" rate="7" />
+  <album id="5" title="title1" band="band1" year="1434" rate="7" />
+  <album id="6" title="title2" band="band2" year="1233" rate="9" />
+  <album id="7" title="title3" band="band3" year="5455" rate="11" />
+  <album id="8" name="NewOne" band="TheNewest" year="1992" rate="10" />
+  <album id="9" name="CoolOne" band="TheCoolestOne" year="1244" rate="11" />
+  <album id="10" title="NewTitle" band="NewBand" year="43423" rate="23" />
+  <album id="123" title="etwert" band="tretge" year="232" rate="232" />
+</root>

@@ -1,0 +1,51 @@
+﻿<Window x:Class="BookReader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookReader"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <XmlDataProvider x:Key="content" Source="Data/Content.xml" XPath="root"/>
+    </Window.Resources>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem>
+                <MenuItem.Header>
+                    <WrapPanel>
+                        <Image Source="Images/documents.png" Height="30"/>
+                        <Label>Documents</Label>
+                    </WrapPanel>
+                </MenuItem.Header>
+            </MenuItem>
+            <MenuItem>
+                <MenuItem.Header>
+                    <WrapPanel>
+                        <Image Source="Images/editing.png" Height="30"/>
+                        <Label>Editing</Label>
+                    </WrapPanel>
+                </MenuItem.Header>
+            </MenuItem>
+            <MenuItem>
+                <MenuItem.Header>
+                    <WrapPanel>
+                        <Image Source="Images/about.png" Height="30"/>
+                        <Label>About</Label>
+                    </WrapPanel>
+                </MenuItem.Header>
+            </MenuItem>
+        </Menu>
+        <TreeView x:Name="tv" ItemsSource="{Binding Source={StaticResource content}}" SelectedItemChanged="tv_SelectedItemChanged"
+                  SelectedValuePath="@id">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate ItemsSource="{Binding XPath=item}">
+                    <WrapPanel>
+                        <Image Source="{Binding XPath=@icon}" Width="40"/>
+                        <TextBlock Text="{Binding XPath=@name}" VerticalAlignment="Center"/>
+                    </WrapPanel>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+    </DockPanel>
+</Window>

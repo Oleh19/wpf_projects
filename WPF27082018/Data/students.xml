@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <student id="1" name="Leonenkov Leonid" age="21" rate="7.5" gid="1" gname="group 1" />
+  <student id="2" name="Sidorenko Sidr" age="22" rate="3.5" gid="1" gname="group 1" />
+  <student id="3" name="Ivanenko Ivan" age="23" rate="6.8" gid="1" gname="group 1" />
+  <student id="4" name="Stepanenko Stepan" age="24" rate="9.1" gid="1" gname="group 1" />
+  <student id="5" name="Someone`s someone" age="25" rate="3.7" gid="2" gname="group 2" />
+  <student id="6" name="Petrenko Petr" age="26" rate="7.8" gid="2" gname="group 2" />
+  <student id="7" name="Fedorov Fedor" age="27" rate="10.4" gid="2" gname="group 2" />
+  <student id="8" name="Vasylyi Pupkin" age="28" rate="5.6" gid="3" gname="group 3" />
+  <student id="9" name="New guy" age="29" rate="9.6" gid="3" gname="group 3" />
+  <student id="10" name="New guy 2" age="30" rate="12.9" gid="4" gname="group 4" />
+  <student id="11" name="Olik Adrushchenko" age="32" rate="10.9" gid="4" gname="group 4" />
+  <student id="4" name="Stepanenko Stepan" age="24" rate="9.1" gid="1" gname="group 1" />
+</root>
