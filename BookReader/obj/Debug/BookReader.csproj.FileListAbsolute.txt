@@ -14,3 +14,11 @@ C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Deb
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\BookReader.pdb
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\App.baml
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\Dictionaries\TvContent.baml
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\Pages\100.baml
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\Pages\1.baml
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\Pages\101.baml
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\Pages\102.baml
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\Pages\103.baml
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\Pages\200.baml
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\Pages\201.baml
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\Pages\202.baml

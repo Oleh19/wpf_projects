@@ -41,11 +41,14 @@
             <TreeView.ItemTemplate>
                 <HierarchicalDataTemplate ItemsSource="{Binding XPath=item}">
                     <WrapPanel>
-                        <Image Source="{Binding XPath=@icon}" Width="40"/>
+                        <Image Source="{Binding XPath=@icon}" Height="30"/>
                         <TextBlock Text="{Binding XPath=@name}" VerticalAlignment="Center"/>
                     </WrapPanel>
                 </HierarchicalDataTemplate>
             </TreeView.ItemTemplate>
         </TreeView>
+        <FlowDocumentReader x:Name="reader">
+            
+        </FlowDocumentReader>
     </DockPanel>
 </Window>
