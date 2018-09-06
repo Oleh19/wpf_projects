@@ -1,23 +1,7 @@
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\bin\Debug\HMW_HP_department.exe.config
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.csprojResolveAssemblyReference.cache
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\obj\Debug\MainWindow.g.cs
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\obj\Debug\App.g.cs
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department_MarkupCompile.cache
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department_MarkupCompile.lref
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\bin\Debug\HMW_HP_department.exe
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\bin\Debug\HMW_HP_department.pdb
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\obj\Debug\App.baml
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\obj\Debug\Dictionary1.baml
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\obj\Debug\Dictionary2.baml
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\obj\Debug\MainWindow.baml
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.g.resources
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.Properties.Resources.resources
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.csproj.GenerateResource.Cache
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.exe
-C:\Users\student.LAN\Downloads\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.pdb
 C:\Users\student.LAN\Desktop\WPF27082018\HMW_HP_department\bin\Debug\HMW_HP_department.exe.config
 C:\Users\student.LAN\Desktop\WPF27082018\HMW_HP_department\bin\Debug\HMW_HP_department.exe
 C:\Users\student.LAN\Desktop\WPF27082018\HMW_HP_department\bin\Debug\HMW_HP_department.pdb
+C:\Users\student.LAN\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.csprojResolveAssemblyReference.cache
 C:\Users\student.LAN\Desktop\WPF27082018\HMW_HP_department\obj\Debug\MainWindow.g.cs
 C:\Users\student.LAN\Desktop\WPF27082018\HMW_HP_department\obj\Debug\App.g.cs
 C:\Users\student.LAN\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department_MarkupCompile.cache
@@ -31,4 +15,23 @@ C:\Users\student.LAN\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_depa
 C:\Users\student.LAN\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.csproj.GenerateResource.Cache
 C:\Users\student.LAN\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.exe
 C:\Users\student.LAN\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.pdb
-C:\Users\student.LAN\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\bin\Debug\HMW_HP_department.exe.config
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.exe
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.pdb
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\bin\Debug\HMW_HP_department.exe
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\bin\Debug\HMW_HP_department.pdb
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\obj\Debug\App.g.cs
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department_MarkupCompile.cache
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department_MarkupCompile.lref
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\obj\Debug\App.baml
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\obj\Debug\Dictionary1.baml
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\obj\Debug\Dictionary2.baml
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\obj\Debug\MainWindow.baml
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.g.resources
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.Properties.Resources.resources
+C:\Users\HP\Desktop\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.csproj.GenerateResource.Cache
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\HMW_HP_department\bin\Debug\HMW_HP_department.exe.config
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.exe
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\HMW_HP_department\obj\Debug\HMW_HP_department.pdb

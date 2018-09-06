@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <root>
-  <department id="1" name="Assembling" />
-  <department id="2" name="Painting" />
-  <department id="3" name="Testing" />
-  <department id="4" name="Development" />
-  <department id="5" name="Distribution" />
+  <department id="1" name="office" />
+  <department id="2" name="factory" />
+  <department id="3" name="security" />
 </root>

@@ -1,15 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <root>
-  <employee id="1" name="Ihor" surname="Andriienko" middlename="Igorevich" birthdate="21.05.1989" specialization="Marketolog" position="Junior marketolog" did="5" dname="Distribution"/>
-  <employee id="2" name="Sidr" surname="Sidorenko" middlename="Sergeevich" birthdate="22.02.1990" specialization="Programmer" position="Middle" did="4" dname="Development"/>
-  <employee id="3" name="Ivan" surname="Ivanenko" middlename="Sergeevich" birthdate="23.01.1988" specialization="Assembler" position="Head assembler" did="1" dname="Assembling"/>
-  <employee id="4" name="Stepan" surname="Stepanenko" middlename="Sergeevich" birthdate="27.03.1984" specialization="Programmer" position="Junior tester" did="2" dname="Testing"/>
-  <employee id="5" name="someone" surname="Someone`s" middlename="Sergeevich" birthdate="12.05.1989" specialization="Security man" position="Security" did="1" dname="Assembling"/>
-  <employee id="6" name="Petr" surname="Petrenko" middlename="Sergeevich" birthdate="21.05.1991" specialization="Programmer" position="Sinior" did="4" dname="Development"/>
-  <employee id="7" name="Vlad" surname="Garmata" middlename="Igorevich" birthdate="21.05.1989" specialization="Cleaner" position="Cleaner man" did="5" dname="Distribution"/>
-  <employee id="8" name="Mark" surname="Vlasow" middlename="Igorevich" birthdate="22.02.1990" specialization="Programmer" position="TeamLead" did="4" dname="Development"/>
-  <employee id="9" name="Volodimir" surname="Ivanchuk" middlename="Markovich" birthdate="23.01.1988" specialization="Assembler" position="Junior assembler" did="1" dname="Assembling"/>
-  <employee id="10" name="Ira" surname="Lisnichaya" middlename="Evgenievna" birthdate="27.03.1984" specialization="Cleaner" position="Cleaner man" did="1" dname="Assembling"/>
-  <employee id="11" name="Katya" surname="Pakholchak" middlename="Sergeevna" birthdate="12.05.1989" specialization="Security man" position="Security" did="2" dname="Painting"/>
-  <employee id="12" name="Artem" surname="Ivanov" middlename="Olegovich" birthdate="21.05.1991" specialization="Security man" position="Security" did="3" dname="Testing"/>
+  <worker id="1" photo="Images/worker1.png" name="Leonid" surname="Leonenkov" middlename="Sergeevich" birthdate="21.05.1989" specialization="office man" position="office worker" did="1" dname="office"/>
+  <worker id="2" photo="Images/worker2.png" name="Sidr" surname="Sidorenko" middlename="Sergeevich" birthdate="21.05.1989" specialization="office man" position="office worker" did="1" dname="office"/>
+  <worker id="3" photo="Images/worker3.png" name="Ivan" surname="Ivanenko" middlename="Sergeevich" birthdate="21.05.1989" specialization="factory man" position="factory worker" did="2" dname="factory"/>
+  <worker id="4" photo="Images/worker4.png" name="Stepan" surname="Stepanenko" middlename="Sergeevich" birthdate="21.05.1989" specialization="factory man" position="factory worker" did="2" dname="factory"/>
+  <worker id="5" photo="Images/worker5.png" name="someone" surname="Someone`s" middlename="Sergeevich" birthdate="21.05.1989" specialization="security man" position="security worker" did="3" dname="security"/>
+  <worker id="6" photo="Images/worker6.png" name="Petr" surname="Petrenko" middlename="Sergeevich" birthdate="21.05.1989" specialization="security man" position="security worker" did="3" dname="security"/>
 </root>

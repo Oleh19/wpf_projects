@@ -5,37 +5,58 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HMW_HP_department"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="700">
+        Title="MainWindow" Height="490" Width="550" Background="LightGreen">
     <DockPanel>
-        <Label DockPanel.Dock="Top" HorizontalContentAlignment="Center" FontFamily="Arial" FontSize="24">HR management system</Label>
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-            <GroupBox Header="Employee selection" DockPanel.Dock="Left" Grid.Column="0">
+        <Label DockPanel.Dock="Top" HorizontalAlignment="Center" FontSize="24" Foreground="DodgerBlue">HR department management system</Label>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Grid.Row ="0" Grid.Column="0" Header="Workers selection">
             <DockPanel>
-                <Label DockPanel.Dock="Top">Departments:</Label>
-                <ComboBox x:Name="comboBox1" DockPanel.Dock="Top" DisplayMemberPath="@name"
-                          ItemsSource="{Binding Source={StaticResource provider1}, XPath=department}"
-                          SelectedIndex="0" SelectionChanged="comboBox1_SelectionChanged"/>
-                <Label DockPanel.Dock="Top">Employees:</Label>
-                <ListBox x:Name="list1" DockPanel.Dock="Top">
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock>
-                                <Run Text="{Binding XPath=@surname}"/>
-                                <Run Text=", "/>
-                                <Run Text="{Binding XPath=@position}"/>
-                            </TextBlock>
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
-                </ListBox>
-            </DockPanel>
-            </GroupBox>
-            <GroupBox Header="Personal information"  Grid.Column="1">
-            
-            </GroupBox>
+                <Label DockPanel.Dock="Top">Company departments:</Label>
+                <ComboBox x:Name="list1" DockPanel.Dock="Top" DisplayMemberPath="@name"
+                            ItemsSource="{Binding Source={StaticResource provider1}, XPath=department}"
+                            SelectedIndex="0" SelectionChanged="list1_SelectionChanged"/>
+                <Label DockPanel.Dock="Top">Company workers:</Label>
+                    <ListBox x:Name="list2">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock>
+                                <Run Text="{Binding XPath=@name}"/>
+                                <Run Text="{Binding XPath=@middlename}"/>
+                                </TextBlock>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </DockPanel>
+        </GroupBox>
+            <GroupBox Grid.Row ="0" Grid.Column="1" Header="Personal data" DataContext="{Binding ElementName=list2, Path=SelectedItem}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1.5*" />
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.Column="0" Source="{Binding XPath=@photo}"/>
+                    <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Center">
+                    <Label>Surname:</Label>
+                    <TextBox Text="{Binding XPath=@surname}"/>
+                    <Label>Name:</Label>
+                    <TextBox Text="{Binding XPath=@name}"/>
+                    <Label>Middlename:</Label>
+                    <TextBox Text="{Binding XPath=@middlename}"/>
+                    <Label>Birthdate:</Label>
+                    <TextBox Text="{Binding XPath=@birthdate}"/>
+                    <Label>Specialization:</Label>
+                    <TextBox Text="{Binding XPath=@specialization}"/>
+                    <Label>Position:</Label>
+                    <TextBox Text="{Binding XPath=@position}"/>
+                    <Label>Department:</Label>
+                    <TextBox Text="{Binding XPath=@dname}"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
         </Grid>
-     </DockPanel>
+    </DockPanel>
 </Window>

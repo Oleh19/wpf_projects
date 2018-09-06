@@ -103,12 +103,37 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\worker1.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Data\departments.xml" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Data\workers.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\worker2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\worker3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\worker4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\worker5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\worker6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\worker1.png" />
+    <Resource Include="Images\worker2.png" />
+    <Resource Include="Images\worker3.png" />
+    <Resource Include="Images\worker4.png" />
+    <Resource Include="Images\worker5.png" />
+    <Resource Include="Images\worker6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

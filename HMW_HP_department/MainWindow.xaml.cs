@@ -25,14 +25,14 @@ namespace HMW_HP_department
             InitializeComponent();
         }
 
-        private void comboBox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void list1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            int k = comboBox1.SelectedIndex + 1;
+            int k = list1.SelectedIndex + 1;
             XmlDataProvider xdp = (XmlDataProvider)this.FindResource("provider2");
             Binding b = new Binding();
             b.Source = xdp;
-            b.XPath = $"employee[@did={k}]";
-            list1.SetBinding(ListBox.ItemsSourceProperty, b);
+            b.XPath = $"worker[@did={k}]";
+            list2.SetBinding(ListBox.ItemsSourceProperty, b);
         }
     }
 }
