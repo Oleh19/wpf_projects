@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml;
 
 namespace Shop
 {
@@ -20,6 +21,7 @@ namespace Shop
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
@@ -48,11 +50,44 @@ namespace Shop
 
         private void buyButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Your order:" + Environment.NewLine + nameLabel.Content + " " + nameTextBox.Text + Environment.NewLine
-                + manufacturerLabel.Content + " " + manufacturerTextBox.Text + Environment.NewLine
-                 + amountLabel.Content + " " + amountTextBox.Text + Environment.NewLine
-                 + "Total " + priceLabel.Content + " " + (Int32.Parse(priceTextBox.Text) * Int32.Parse(amountTextBox.Text)).ToString()
-                 );
+            if (String.IsNullOrWhiteSpace(nameTextBox.Text))
+            {
+                MessageBox.Show("Please select a good!");
+            }
+            else
+            {
+                MessageBox.Show("Your order:" + Environment.NewLine + nameLabel.Content + " " + nameTextBox.Text + Environment.NewLine
+                    + manufacturerLabel.Content + " " + manufacturerTextBox.Text + Environment.NewLine
+                     + amountLabel.Content + " " + amountTextBox.Text + Environment.NewLine
+                     + "Total " + priceLabel.Content + " " + (Int32.Parse(priceTextBox.Text) * Int32.Parse(amountTextBox.Text)).ToString()
+                     );
+            }
+        }
+
+        private void addCategory_Click(object sender, RoutedEventArgs e)
+        {
+            AddingWindow adw = new AddingWindow();
+            if(adw.ShowDialog() == true)
+            {
+                XmlDataProvider xdp = (XmlDataProvider)FindResource("categoriesProvider");
+                XmlDocument xd = new XmlDocument();
+                xd.Load(@"..\..\Data\Categories.xml");
+                xdp.Document = xd;
+            }
+            categoriesComboBox.SelectedIndex = 0;
+        }
+
+        private void removeCategory_Click(object sender, RoutedEventArgs e)
+        {
+            RemovingWindow adw = new RemovingWindow();
+            if (adw.ShowDialog() == true)
+            {
+                XmlDataProvider xdp = (XmlDataProvider)FindResource("categoriesProvider");
+                XmlDocument xd = new XmlDocument();
+                xd.Load(@"..\..\Data\Categories.xml");
+                xdp.Document = xd;
+            }
+            categoriesComboBox.SelectedIndex = 0;
         }
     }
 }

@@ -5,14 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Shop"
         mc:Ignorable="d"
-        Title="MainWindow" Height="950" Width="625">
+        Title="MainWindow" Height="650" Width="625">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="Categories management">
-                <MenuItem Header="Add category"/>
+                <MenuItem Header="Add category" Click="addCategory_Click"/>
+                <MenuItem Header="Remove category" Click="removeCategory_Click"/>
             </MenuItem>
             <MenuItem Header="Goods management">
                 <MenuItem Header="Add good"/>
+                <MenuItem Header="Remove good"/>
+                <MenuItem Header="Edit good"/>
             </MenuItem>
         </Menu>
         <Grid DockPanel.Dock="Top">
@@ -35,7 +38,7 @@
         </Grid>
 
         <Grid DockPanel.Dock="Bottom">
-        <Button x:Name="buyButton" Content="Buy" Height="100" Click="buyButton_Click"/>
+        <Button x:Name="buyButton" Content="Buy" Height="100" Click="buyButton_Click" FontSize="30"/>
         </Grid>
 
         <Grid DockPanel.Dock="Bottom" DataContext="{Binding ElementName=goodsListView, Path=SelectedItem}" Margin="10 0">
