@@ -3,31 +3,53 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:CommandsStart"
+        xmlns:local="clr-namespace:CommandsStart.Commands"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+    <Window.CommandBindings>
+        <CommandBinding x:Name="NewCommand" Command="New" Executed="NewCommand_Executed"/>
+        <CommandBinding x:Name="OpenCommand" Command="Open" Executed="OpenCommand_Executed"/>
+        <CommandBinding x:Name="SaveCommand" Command="Save" Executed="SaveCommand_Executed"/>
+        <CommandBinding x:Name="ExitCommand" Command="{x:Static local:MyCommands.Exit}" Executed="ExitCommand_Executed"/>
+        <CommandBinding x:Name="ResetCommand" Command="{x:Static local:MyCommands.Reset}" Executed="ResetCommand_Executed"/>
+        <CommandBinding x:Name="HelpCommand" Command="{x:Static local:MyCommands.Help}" Executed="HelpCommand_Executed"/>
+    </Window.CommandBindings>
     <DockPanel>
         <Menu DockPanel.Dock="Top">
-            <MenuItem Header="Edit">
-                <MenuItem Header="Copy" Command="Copy"/>
-                <MenuItem Header="Paste" Command="Paste"/>
-                <MenuItem Header="Cut" Command="Cut"/>
-                <MenuItem Header="Delete" Command="Delete"/>
+            <MenuItem Header="_File">
+                <MenuItem Header="_New" InputGestureText="Ctrl+N" Command="New"/>
+                <MenuItem Header="_Open" InputGestureText="Ctrl+O" Command="Open"/>
+                <MenuItem Header="_Save" InputGestureText="Ctrl+S" Command="Save"/>
+                <MenuItem Header="E_xit" InputGestureText="Ctrl+Q" Command="{x:Static local:MyCommands.Exit}"/>
             </MenuItem>
+            <MenuItem Header="_Edit">
+                <MenuItem Header="_Copy" Command="Copy"/>
+                <MenuItem Header="_Paste" Command="Paste"/>
+                <MenuItem Header="C_ut" Command="Cut"/>
+                <MenuItem Header="_Delete" Command="Delete"/>
+                <MenuItem Header="_Reset" Command="{x:Static local:MyCommands.Reset}"/>
+            </MenuItem>
+            <MenuItem Header="_Help" Command="{x:Static local:MyCommands.Help}"/>
         </Menu>
         <ToolBar DockPanel.Dock="Top">
+            <Button Content="New" Command="New"/>
+            <Button Content="Open" Command="Open"/>
+            <Button Content="Save" Command="Save"/>
             <Button Content="Copy" Command="Copy"/>
             <Button Content="Paste" Command="Paste"/>
             <Button Content="Cut" Command="Cut"/>
             <Button Content="Delete" Command="Delete"/>
+            <Button Content="Reset" Command="{x:Static local:MyCommands.Reset}"/>
+            <Button Content="Help" Command="{x:Static local:MyCommands.Help}"/>
         </ToolBar>
-        <TextBox TextWrapping="Wrap" AcceptsReturn="True">
+        <TextBox x:Name="text" TextWrapping="Wrap" AcceptsReturn="True">
             <TextBox.ContextMenu>
                 <ContextMenu>
                     <MenuItem Header="Copy" Command="Copy"/>
                     <MenuItem Header="Paste" Command="Paste"/>
                     <MenuItem Header="Cut" Command="Cut"/>
                     <MenuItem Header="Delete" Command="Delete"/>
+                    <MenuItem Header="Reset" Command="{x:Static local:MyCommands.Reset}"/>
                 </ContextMenu>
             </TextBox.ContextMenu>
         </TextBox>

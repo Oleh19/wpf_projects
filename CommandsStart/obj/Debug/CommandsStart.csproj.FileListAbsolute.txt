@@ -12,3 +12,16 @@ C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\CommandsStart\obj\
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\CommandsStart\obj\Debug\CommandsStart.csproj.GenerateResource.Cache
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\CommandsStart\obj\Debug\CommandsStart.exe
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\CommandsStart\obj\Debug\CommandsStart.pdb
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\CommandsStart\bin\Debug\CommandsStart.exe.config
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\CommandsStart\obj\Debug\CommandsStart.exe
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\CommandsStart\obj\Debug\CommandsStart.pdb
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\CommandsStart\bin\Debug\CommandsStart.exe
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\CommandsStart\bin\Debug\CommandsStart.pdb
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\CommandsStart\obj\Debug\MainWindow.g.cs
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\CommandsStart\obj\Debug\App.g.cs
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\CommandsStart\obj\Debug\CommandsStart_MarkupCompile.cache
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\CommandsStart\obj\Debug\CommandsStart_MarkupCompile.lref
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\CommandsStart\obj\Debug\MainWindow.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\CommandsStart\obj\Debug\CommandsStart.g.resources
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\CommandsStart\obj\Debug\CommandsStart.Properties.Resources.resources
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\CommandsStart\obj\Debug\CommandsStart.csproj.GenerateResource.Cache

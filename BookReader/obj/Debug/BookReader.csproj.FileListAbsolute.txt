@@ -22,3 +22,26 @@ C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Deb
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\Pages\200.baml
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\Pages\201.baml
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\BookReader\obj\Debug\Pages\202.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\bin\Debug\BookReader.exe.config
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\bin\Debug\BookReader.exe
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\bin\Debug\BookReader.pdb
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\MainWindow.g.cs
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\App.g.cs
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\BookReader_MarkupCompile.cache
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\BookReader_MarkupCompile.lref
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\App.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\Dictionaries\TvContent.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\MainWindow.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\Pages\1.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\Pages\100.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\Pages\101.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\Pages\102.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\Pages\103.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\Pages\200.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\Pages\201.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\Pages\202.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\BookReader.g.resources
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\BookReader.Properties.Resources.resources
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\BookReader.csproj.GenerateResource.Cache
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\BookReader.exe
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\BookReader\obj\Debug\BookReader.pdb

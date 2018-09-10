@@ -62,3 +62,30 @@ C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\obj\Debug\Rem
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\obj\Debug\RemovingGoodWindow.baml
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\obj\Debug\EditingGoodWindow.g.cs
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\obj\Debug\EditingGoodWindow.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\bin\Debug\Shop.exe.config
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\Shop.exe
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\Shop.pdb
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\bin\Debug\Shop.exe
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\bin\Debug\Shop.pdb
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\AddingGoodWindow.g.cs
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\AddingWindow.g.cs
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\EditingGoodWindow.g.cs
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\MainWindow.g.cs
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\RemovingGoodWindow.g.cs
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\RemovingWindow.g.cs
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\App.g.cs
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\Shop_MarkupCompile.cache
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\Shop_MarkupCompile.lref
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\App.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\AddingGoodWindow.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\AddingWindow.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\EditingGoodWindow.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\GraphicsDictionary.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\MainWindow.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\ProvidersDictionary.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\RemovingGoodWindow.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\RemovingWindow.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\StylesDictionary.baml
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\Shop.g.resources
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\Shop.Properties.Resources.resources
+C:\Users\student.LAN\Desktop\WPF\wpf_projects\Shop\obj\Debug\Shop.csproj.GenerateResource.Cache
