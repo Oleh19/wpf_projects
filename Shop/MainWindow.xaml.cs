@@ -89,5 +89,41 @@ namespace Shop
             }
             categoriesComboBox.SelectedIndex = 0;
         }
+
+        private void addGood_Click(object sender, RoutedEventArgs e)
+        {
+            AddingGoodWindow adw = new AddingGoodWindow();
+            if (adw.ShowDialog() == true)
+            {
+                XmlDataProvider xdp = (XmlDataProvider)FindResource("goodsProvider");
+                XmlDocument xd = new XmlDocument();
+                xd.Load(@"..\..\Data\Goods.xml");
+                xdp.Document = xd;
+            }
+        }
+
+        private void removeGood_Click(object sender, RoutedEventArgs e)
+        {
+            RemovingGoodWindow adw = new RemovingGoodWindow();
+            if (adw.ShowDialog() == true)
+            {
+                XmlDataProvider xdp = (XmlDataProvider)FindResource("goodsProvider");
+                XmlDocument xd = new XmlDocument();
+                xd.Load(@"..\..\Data\Goods.xml");
+                xdp.Document = xd;
+            }
+        }
+
+        private void editGood_Click(object sender, RoutedEventArgs e)
+        {
+            EditingGoodWindow adw = new EditingGoodWindow();
+            if (adw.ShowDialog() == true)
+            {
+                XmlDataProvider xdp = (XmlDataProvider)FindResource("goodsProvider");
+                XmlDocument xd = new XmlDocument();
+                xd.Load(@"..\..\Data\Goods.xml");
+                xdp.Document = xd;
+            }
+        }
     }
 }

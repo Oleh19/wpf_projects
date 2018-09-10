@@ -13,9 +13,9 @@
                 <MenuItem Header="Remove category" Click="removeCategory_Click"/>
             </MenuItem>
             <MenuItem Header="Goods management">
-                <MenuItem Header="Add good"/>
-                <MenuItem Header="Remove good"/>
-                <MenuItem Header="Edit good"/>
+                <MenuItem x:Name="addGood" Header="Add good" Click="addGood_Click"/>
+                <MenuItem x:Name="removeGood" Header="Remove good" Click="removeGood_Click"/>
+                <MenuItem x:Name="editGood" Header="Edit good" Click="editGood_Click"/>
             </MenuItem>
         </Menu>
         <Grid DockPanel.Dock="Top">

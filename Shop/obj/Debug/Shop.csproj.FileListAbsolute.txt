@@ -56,3 +56,9 @@ C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\obj\Debug\Add
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\obj\Debug\AddingWindow.baml
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\obj\Debug\RemovingWindow.g.cs
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\obj\Debug\RemovingWindow.baml
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\obj\Debug\AddingGoodWindow.g.cs
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\obj\Debug\AddingGoodWindow.baml
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\obj\Debug\RemovingGoodWindow.g.cs
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\obj\Debug\RemovingGoodWindow.baml
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\obj\Debug\EditingGoodWindow.g.cs
+C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\obj\Debug\EditingGoodWindow.baml

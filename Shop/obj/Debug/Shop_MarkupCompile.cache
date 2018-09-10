@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\HP\Documents\Visual Studio 2015\Projects\WPF27082018\Shop\App.xaml
-62115433800
+9306503604
 
-7589132011
+10-564211639
 14-1787462521
-AddingWindow.xaml;GraphicsDictionary.xaml;MainWindow.xaml;ProvidersDictionary.xaml;RemovingWindow.xaml;StylesDictionary.xaml;
+AddingGoodWindow.xaml;AddingWindow.xaml;EditingGoodWindow.xaml;GraphicsDictionary.xaml;MainWindow.xaml;ProvidersDictionary.xaml;RemovingGoodWindow.xaml;RemovingWindow.xaml;StylesDictionary.xaml;
 
 False
 

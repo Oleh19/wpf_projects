@@ -1,0 +1,48 @@
+﻿<Window x:Class="Shop.EditingGoodWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Shop"
+        mc:Ignorable="d"
+        Title="EditingGoodWindow" Height="300" Width="300">
+    <StackPanel>
+    <Label Content="Editing good" Style="{StaticResource font1}" FontSize="18"  HorizontalAlignment="Center"/>
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.5*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+           
+        <ListView x:Name="goodsListView" Grid.Column="0" ItemsSource="{Binding Source={StaticResource goodsProvider},XPath=product}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" Width="auto" DisplayMemberBinding="{Binding XPath=@id}"/>
+                    <GridViewColumn Header="Name" Width="150" DisplayMemberBinding="{Binding XPath=@Name}"/>
+                    <GridViewColumn Header="ManufacturerId" Width="auto" DisplayMemberBinding="{Binding XPath=@ManufacturerId}"/>
+                    <GridViewColumn Header="Price" Width="auto" DisplayMemberBinding="{Binding XPath=@Price}"/>
+                    <GridViewColumn Header="Amount" Width="auto" DisplayMemberBinding="{Binding XPath=@Amount}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+            <StackPanel Width="200" Grid.Column="1" HorizontalAlignment="Left" Margin="10 10" VerticalAlignment="Center" DataContext="{Binding ElementName=goodsListView, Path=SelectedItem}" >
+            <Label Content="ID:" Style="{StaticResource font1}" HorizontalAlignment="Center"/>
+            <TextBox x:Name="ID"  Text="{Binding XPath=@id}" Style="{StaticResource font1}"/>
+            <Label Content="categoryID:" Style="{StaticResource font1}" HorizontalAlignment="Center"/>
+            <TextBox x:Name="categoryID"  Text="{Binding XPath=@categoryID}" Style="{StaticResource font1}"/>
+            <Label Content="Name:" Style="{StaticResource font1}" HorizontalAlignment="Center"/>
+            <TextBox x:Name="Name" Text="{Binding XPath=@Name}" Style="{StaticResource font1}"/>
+            <Label Content="ManufacturerId:" Style="{StaticResource font1}" HorizontalAlignment="Center"/>
+            <TextBox x:Name="ManufacturerId" Text="{Binding XPath=@ManufacturerId}" Style="{StaticResource font1}"/>
+            <Label Content="Manufacturer:" Style="{StaticResource font1}" HorizontalAlignment="Center"/>
+            <TextBox x:Name="Manufacturer" Text="{Binding XPath=@Manufacturer}" Style="{StaticResource font1}"/>
+            <Label Content="Price:" Style="{StaticResource font1}" HorizontalAlignment="Center"/>
+            <TextBox x:Name="Price" Text="{Binding XPath=@Price}" Style="{StaticResource font1}"/>
+            <Label Content="Amount:" Style="{StaticResource font1}" HorizontalAlignment="Center"/>
+            <TextBox x:Name="Amount" Text="{Binding XPath=@Amount}" Style="{StaticResource font1}"/>
+            <Button Content="Save changes" Style="{StaticResource font1}" Click="Button_Click" Margin="0 10"/>
+        </StackPanel>
+        </Grid>
+    </StackPanel>
+</Window>
