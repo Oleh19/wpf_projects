@@ -1,0 +1,17 @@
+C:\Users\student.LAN\Desktop\wpf_projects\AnimationDemo\bin\Debug\AnimationDemo.exe.config
+C:\Users\student.LAN\Desktop\wpf_projects\AnimationDemo\bin\Debug\AnimationDemo.exe
+C:\Users\student.LAN\Desktop\wpf_projects\AnimationDemo\bin\Debug\AnimationDemo.pdb
+C:\Users\student.LAN\Desktop\wpf_projects\AnimationDemo\obj\Debug\AnimationDemo.csprojResolveAssemblyReference.cache
+C:\Users\student.LAN\Desktop\wpf_projects\AnimationDemo\obj\Debug\MainWindow.g.cs
+C:\Users\student.LAN\Desktop\wpf_projects\AnimationDemo\obj\Debug\App.g.cs
+C:\Users\student.LAN\Desktop\wpf_projects\AnimationDemo\obj\Debug\AnimationDemo_MarkupCompile.cache
+C:\Users\student.LAN\Desktop\wpf_projects\AnimationDemo\obj\Debug\AnimationDemo_MarkupCompile.lref
+C:\Users\student.LAN\Desktop\wpf_projects\AnimationDemo\obj\Debug\MainWindow.baml
+C:\Users\student.LAN\Desktop\wpf_projects\AnimationDemo\obj\Debug\AnimationDemo.g.resources
+C:\Users\student.LAN\Desktop\wpf_projects\AnimationDemo\obj\Debug\AnimationDemo.Properties.Resources.resources
+C:\Users\student.LAN\Desktop\wpf_projects\AnimationDemo\obj\Debug\AnimationDemo.csproj.GenerateResource.Cache
+C:\Users\student.LAN\Desktop\wpf_projects\AnimationDemo\obj\Debug\AnimationDemo.exe
+C:\Users\student.LAN\Desktop\wpf_projects\AnimationDemo\obj\Debug\AnimationDemo.pdb
+C:\Users\HP\Desktop\wpf_projects\AnimationDemo\bin\Debug\AnimationDemo.exe.config
+C:\Users\HP\Desktop\wpf_projects\AnimationDemo\obj\Debug\AnimationDemo.exe
+C:\Users\HP\Desktop\wpf_projects\AnimationDemo\obj\Debug\AnimationDemo.pdb

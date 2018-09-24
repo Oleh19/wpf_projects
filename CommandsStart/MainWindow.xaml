@@ -20,7 +20,7 @@
                 <MenuItem Header="_New" InputGestureText="Ctrl+N" Command="New"/>
                 <MenuItem Header="_Open" InputGestureText="Ctrl+O" Command="Open"/>
                 <MenuItem Header="_Save" InputGestureText="Ctrl+S" Command="Save"/>
-                <MenuItem Header="E_xit" InputGestureText="Ctrl+Q" Command="{x:Static local:MyCommands.Exit}"/>
+                <MenuItem Header="E_xit" InputGestureText="Ctrl+X" Command="{x:Static local:MyCommands.Exit}"/>
             </MenuItem>
             <MenuItem Header="_Edit">
                 <MenuItem Header="_Copy" Command="Copy"/>

@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WPFGraphics">
+    <LinearGradientBrush x:Key="gradient1" StartPoint="0.3,0" EndPoint="0.7,1">
+        <GradientStop Offset="0.0" Color="White"/>
+        <GradientStop Offset="0.1" Color="Red"/>
+        <GradientStop Offset="0.2" Color="Orange"/>
+        <GradientStop Offset="0.3" Color="Yellow"/>
+        <GradientStop Offset="0.4" Color="Green"/>
+        <GradientStop Offset="0.5" Color="LightBlue"/>
+        <GradientStop Offset="0.6" Color="Blue"/>
+        <GradientStop Offset="0.7" Color="Purple"/>
+        <GradientStop Offset="0.8" Color="LightGray"/>
+        <GradientStop Offset="0.9" Color="LightGreen"/>
+        <GradientStop Offset="1.0" Color="Black"/>
+    </LinearGradientBrush>
+    <RadialGradientBrush x:Key="gradient2" Center="0.2 0.2">
+        <GradientStop Offset="0.0" Color="DodgerBlue"/>
+        <GradientStop Offset="0.5" Color="Yellow"/>
+        <GradientStop Offset="1" Color="Cyan"/>
+    </RadialGradientBrush>
+    <ImageBrush x:Key="gradient3" ImageSource="images.jpg" Stretch="UniformToFill" Viewport="0,0,0.25,0.25" TileMode="FlipXY"/>
+</ResourceDictionary>

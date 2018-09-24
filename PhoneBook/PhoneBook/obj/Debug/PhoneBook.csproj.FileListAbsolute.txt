@@ -1,0 +1,40 @@
+C:\Users\Vladimir and Olga\source\repos\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe.config
+C:\Users\Vladimir and Olga\source\repos\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe
+C:\Users\Vladimir and Olga\source\repos\PhoneBook\PhoneBook\bin\Debug\PhoneBook.pdb
+C:\Users\Vladimir and Olga\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir and Olga\source\repos\PhoneBook\PhoneBook\obj\Debug\App.g.cs
+C:\Users\Vladimir and Olga\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook_MarkupCompile.cache
+C:\Users\Vladimir and Olga\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.g.resources
+C:\Users\Vladimir and Olga\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.Properties.Resources.resources
+C:\Users\Vladimir and Olga\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.GenerateResource.cache
+C:\Users\Vladimir and Olga\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir and Olga\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.exe
+C:\Users\Vladimir and Olga\source\repos\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb
+C:\Users\Vladimir and Olga\source\repos\PhoneBook\PhoneBook\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Vladimir and Olga\source\repos\PhoneBook\PhoneBook\obj\Debug\Views\MainWindow.baml
+C:\Users\student\Downloads\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe.config
+C:\Users\student\Downloads\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe
+C:\Users\student\Downloads\PhoneBook\PhoneBook\bin\Debug\PhoneBook.pdb
+C:\Users\student\Downloads\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csprojResolveAssemblyReference.cache
+C:\Users\student\Downloads\PhoneBook\PhoneBook\obj\Debug\Views\MainWindow.baml
+C:\Users\student\Downloads\PhoneBook\PhoneBook\obj\Debug\Views\MainWindow.g.cs
+C:\Users\student\Downloads\PhoneBook\PhoneBook\obj\Debug\App.g.cs
+C:\Users\student\Downloads\PhoneBook\PhoneBook\obj\Debug\PhoneBook_MarkupCompile.cache
+C:\Users\student\Downloads\PhoneBook\PhoneBook\obj\Debug\PhoneBook.g.resources
+C:\Users\student\Downloads\PhoneBook\PhoneBook\obj\Debug\PhoneBook.Properties.Resources.resources
+C:\Users\student\Downloads\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.GenerateResource.Cache
+C:\Users\student\Downloads\PhoneBook\PhoneBook\obj\Debug\PhoneBook.exe
+C:\Users\student\Downloads\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb
+C:\Users\HP\Desktop\wpf_projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe.config
+C:\Users\HP\Desktop\wpf_projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.exe
+C:\Users\HP\Desktop\wpf_projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.pdb
+C:\Users\HP\Desktop\wpf_projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe
+C:\Users\HP\Desktop\wpf_projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.pdb
+C:\Users\HP\Desktop\wpf_projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\wpf_projects\PhoneBook\PhoneBook\obj\Debug\Views\MainWindow.baml
+C:\Users\HP\Desktop\wpf_projects\PhoneBook\PhoneBook\obj\Debug\Views\MainWindow.g.cs
+C:\Users\HP\Desktop\wpf_projects\PhoneBook\PhoneBook\obj\Debug\App.g.cs
+C:\Users\HP\Desktop\wpf_projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook_MarkupCompile.cache
+C:\Users\HP\Desktop\wpf_projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.g.resources
+C:\Users\HP\Desktop\wpf_projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.Properties.Resources.resources
+C:\Users\HP\Desktop\wpf_projects\PhoneBook\PhoneBook\obj\Debug\PhoneBook.csproj.GenerateResource.Cache
